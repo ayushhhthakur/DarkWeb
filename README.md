@@ -20,7 +20,7 @@ To access "Underdog," follow these simple steps:
 
 2. **Open Tor Browser**: After installation, open the Tor Browser.
 
-3. **Enter the .onion URL**: In the Tor Browser, enter the .onion URL for "Underdog" ([Insert Dark Web .onion URL]).
+3. **Enter the .onion URL**: In the Tor Browser, enter the .onion URL for "Underdog" ([http://uyo3skxpncoxyjqtlfwi4stkah3xmxddu5zx3co6rrj3tkcke26qhoyd.onion]).
 
 4. **Explore**: You're now on "Underdog." Browse the site, explore the inspiring stories, and be a part of our community.
 
