@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  /* Include box-sizing in the universal selector */
+}
+
+/* Resetting common block elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #000010;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 10px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 120;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+h1::after {
+  content: '';
+  width: 80px;
+  display: block;
+  background: #fff;
+  height: 10px;
+  margin: 30px auto;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0 0 30px 0;
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 30px;
+    /* Adjust the heading size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 20px;
+    /* Further reduce heading size for even smaller screens */
+  }
+
+  h1::after {
+    height: 8px;
+    /* Adjust the line height */
+  }
+
+  p {
+    font-size: 18px;
+    /* Adjust paragraph font size */
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  /* Include box-sizing in the universal selector */
+}
+
+/* Resetting common block elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #000010;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#intro {
+position: absolute;
+  top: 50%;
+  padding: 0 10px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 120;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+h1::after {
+  content: '';
+  width: 80px;
+  display: block;
+  background: #fff;
+  height: 10px;
+  margin: 30px auto;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0 0 30px 0;
+  font-size: 24px;* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+  }
+  
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  
+  body {
+    line-height: 1;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  blockquote,
+  q {
+    quotes: none;
+  }
+  
+  blockquote::before,
+  blockquote::after,
+  q::before,
+  q::after {
+    content: '';
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    background: #000010;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  #particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #intro {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 120;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+  }
+  
+  h1::after {
+    content: '';
+    width: 80px;
+    display: block;
+    background: #fff;
+    height: 10px;
+    margin: 30px auto;
+    line-height: 1.1;
+  }
+  
+  p {
+    margin: 0 0 30px 0;
+    font-size: 24px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .img {
+    width: 20%;
+    height: 20%;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out; /* Apply the transition to width and height */
+  }
+  
+  .img:hover {
+    width: 30%;
+    height: 30%;
+  }
+  
+
+  @media only screen and (max-width: 1000px) {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h2 {
+      font-size: 50px;
+      margin-top: -40px;
+    }
+  
+    img {
+      width: 40%;
+      height: auto;
+    }
+  
+    h1::after {
+      height: 8px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+}
+
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 50px;
+    margin-top: -40px;
+  }
+
+  img {
+    width: 40%;
+    height: auto;
+    }
+
+  h1::after {
+    height: 8px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
