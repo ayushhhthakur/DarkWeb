@@ -1,28 +1,33 @@
-# Underdog
-
-## Introduction
-
-"Underdog" is a single-page web prototype hosted on the dark web. It's a platform created to highlight inspiring stories, unsung heroes, and underappreciated causes. This README provides an overview of the project and how to access it.
-
-## Features
-
-- **Dark Web Hosting**: "Underdog" is hosted on the dark web, providing privacy and anonymity with a .onion URL.
-
-- **Inspiration**: Discover and celebrate individuals and causes making a positive impact in our world.
-
-## Getting Started
-
-### Accessing "Underdog"
-
-To access "Underdog," follow these simple steps:
-
-1. **Download a Tor Browser**: If you don't already have one, you can download the Tor Browser from [https://www.torproject.org/](https://www.torproject.org/).
-
-2. **Open Tor Browser**: After installation, open the Tor Browser.
-
-3. **Enter the .onion URL**: In the Tor Browser, enter the .onion URL for "Underdog" ([http://uyo3skxpncoxyjqtlfwi4stkah3xmxddu5zx3co6rrj3tkcke26qhoyd.onion]).
-
-4. **Explore**: You're now on "Underdog." Browse the site, explore the inspiring stories, and be a part of our community.
 
 
-We hope you enjoy your visit to "Underdog" and find inspiration in the stories and causes we've highlighted.
+## Options
+
+| Your Code                | JS                                |
+|--------------------------|-----------------------------------|
+| noCap                    | true                              |
+| cap                      | false                             |
+| onGod                    | true                              |
+| lowkey.stan("message")   | console.log("message")            |
+| lowkey.sus("message")    | console.warn("message")           |
+| lowkey.crowed("message") | console.debug("message")          |
+| lowkey.cringe("message") | console.error("message")          |
+| lowkey.tea("message")    | console.info("message")           |
+| throw new L("message")   | throw new Error("message")        |
+| yeet(new L("message"))   | throw new Error("message")        |
+| ghosted                  | return null                       |
+| drop(thingToReturn)      | return thingToReturn;             |
+| itsGiving(thingToReturn) | return thingToReturn;             |
+| PERIODT                  | break                             |
+| period                   | break                             |
+| skrt                     | break                             |
+| holdUp(veryCoolFunction) | async function veryCoolFunction() |
+| letItCook(thingToAwait)  | await thingToAwait                |
+| grab("stash")            | require("stash")                  |
+| module.ship = vibe       | module.exports = vibe             |
+| fr(assertion)            | assert(assertion)                 |
+| outOfPocket              | Infinity                          |
+| "BLAT".based()           | "BLAT".toLowerCase()              |
+| dis                      | this                              |
+| clapback(1)              | yield 1                           |
+| finna("message")         | confirm("message")                |
+| document.vibeOnEvent("message")         | document.addEventListener("message")                |
